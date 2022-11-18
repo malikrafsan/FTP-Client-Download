@@ -4,6 +4,7 @@ import config
 from timeit import default_timer as timer
 
 def get_file(ftp_server: ftplib.FTP, file_server, file_client):
+  print("<><><><><><><><><><><><><><><><><><><><><><>")
   print("Downloading file: " + file_server)
   start = timer()
   
@@ -12,6 +13,7 @@ def get_file(ftp_server: ftplib.FTP, file_server, file_client):
   
   end = timer()
   print(f"Downloaded in {end - start} seconds")
+  print("<><><><><><><><><><><><><><><><><><><><><><>\n")
 
 def main():
   ftp_server = ftplib.FTP(config.HOSTNAME, config.USERNAME, config.PASSWORD)
