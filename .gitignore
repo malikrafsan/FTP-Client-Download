@@ -2,3 +2,6 @@ out/*
 !out/.gitkeep
 
 *.pyc
+result.csv
+*.sh
+!run.sh

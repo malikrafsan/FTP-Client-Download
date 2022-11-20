@@ -8,3 +8,4 @@ FILES = {
   'upload/file-5Mb.txt': 'out/file-5Mb.txt'
 }
 
+CSV_FILE = "result.csv"
